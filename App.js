@@ -28,8 +28,8 @@ import {
 const App: () => React$Node = () => {
   useEffect(() => {
     Pushwoosh.init({
-      pw_appid: '66A5D-924E3',
-      project_number: 'com.inglass.mhub.dev',
+      pw_appid: 'XXXXX-XXXXX',
+      project_number: 'com.xxxxx.dev',
     })
     Pushwoosh.register()
   })
